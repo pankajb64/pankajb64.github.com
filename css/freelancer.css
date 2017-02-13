@@ -506,5 +506,5 @@ fieldset[disabled] .btn-success.active {
 
 /*Custom changes*/
 .btn-lg a {
-  border-bottom: dotted 1px;
+  border-bottom: dotted 1px rgba(53,184,143,0.5);
 }
