@@ -503,3 +503,8 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+/*Custom changes*/
+.btn-lg a {
+  border-bottom: dotted 1px;
+}
