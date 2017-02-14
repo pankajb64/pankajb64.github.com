@@ -512,5 +512,5 @@ fieldset[disabled] .btn-success.active {
   font-size: 21px;
 }
 .dotted-link a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
