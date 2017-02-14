@@ -510,3 +510,6 @@ fieldset[disabled] .btn-success.active {
   padding: 0;
   text-decoration: none;
 }
+.dotted-link :hover {
+  text-decoration: none;
+}
