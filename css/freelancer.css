@@ -505,6 +505,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 /*Custom changes*/
-.btn-lg a {
+.dotted-link {
   border-bottom: dotted 1px rgba(53,184,143,0.5);
+  padding: 0;
+  text-decoration: none;
 }
