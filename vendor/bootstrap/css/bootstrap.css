@@ -6759,3 +6759,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*Custom changes*/
+.btn-lg a {
+    border-bottom: dotted 1px rgba(53,184,143,0.5);
+    padding: 0;
+    text-decoration: none;
+}
