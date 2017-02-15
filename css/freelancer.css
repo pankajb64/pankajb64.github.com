@@ -562,3 +562,8 @@ fieldset[disabled] .btn-success.active {
     margin: 0 0 30px;
   }
 }
+
+.img-portfolio img {
+	width: 360px;
+	height: 240px;
+}
