@@ -56,8 +56,14 @@
                     <li class="page-scroll">
                         <a href="#experience">Work Ex.</a>
                     </li>
+					<li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Projects</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#education">Education</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
@@ -87,7 +93,8 @@
             </div>
         </div>
     </header>
-    <!-- Experience Grid Section -->
+    
+	<!-- Experience Grid Section -->
     <section id="experience" >
         <div class="container">
             <div class="row">
@@ -130,6 +137,27 @@
             </div>
         </div>
     </section>
+	
+	<!-- Skills Grid Section -->
+	<section id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+                    <h2>Work Experience</h2>
+                    <hr class="star-primary">
+                </div>
+			</div>
+            <div class="row">
+				<ul>
+					<li><strong>Interest Areas:</strong> Machine Learning, Natural Language Processing, Algorithm Design and Analysis, Software Security, Computer Networking, Information Retrieval, Artificial Intelligence</li>
+					<li><strong>Programming Languages:</strong> Java, Python, C++, MySQL, JavaScript, Bash (Familiarity with: Scala, Ruby, C, HTML, CSS)</li>
+					<li><strong>Development Technologies:</strong> Keras, Theano, Spring, Qt, Android, Hbase, Ehcache, Terracotta, RabbitMQ, Redis, Akka, JDBC, Hibernate, MyBatis, Node.js. Apache Tomcat, jQuery, Django, Rails, Selenium</li>
+					<li><strong>Software Tools Used:</strong> Git, SVN, Ant, Maven, Eclipse, Android Studio, Wireshark, Vim</li>				
+				</ul>
+			</div>
+		</div>
+	</section>
+	
     <!-- Portfolio Grid Section -->
     <section id="portfolio" >
         <div class="container">
@@ -160,6 +188,8 @@
                         <img src="img/portfolio/nlp.jpg"  class="img-responsive img-portfolio" alt="">
                     </a>
                 </div>
+			</div>
+			<div class="row">
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -184,6 +214,40 @@
         </div>
     </section>
 
+	<!-- Experience Grid Section -->
+    <section id="education" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Education</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#educationModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/umass.jpg" class="img-responsive img-portfolio" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#educationModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/daiict.jpg" class="img-responsive img-portfolio" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
@@ -516,6 +580,57 @@
         </div>
     </div>
 
+	<!-- Education Modals -->
+    <div class="portfolio-modal modal fade" id="educationModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>University of Massachusetts Amherst</h2>
+                            <h4>MS - Computer Science</h4>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/umass.jpg" class="img-responsive img-centered img-portfolio" alt="">
+                            <p>Relevant Coursework – Machine Learning, Natural Language Processing, Artificial Intelligence, Systems</p>
+                            <p><strong>Dates:</strong> September 2016 – PRESENT</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="educationModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Dhirubhai Ambani Institute of Information and Communication Technology</h2>
+                            <h4>B.Tech. - Information & Comm. Technology</h4>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/daiict.jpg" class="img-responsive img-centered img-portfolio" alt="">
+                            <p>IRelevant Coursework: Algorithms, Data Structures, Computer Networks, Databases, Operating Systems, Systems Software, Cryptography, Security Protocols, Graph Theory, Computer Organisation, Natural Computing</p>
+                            <p><strong>Dates:</strong> July 2009 - May 2013</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
