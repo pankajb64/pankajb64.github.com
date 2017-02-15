@@ -565,5 +565,5 @@ fieldset[disabled] .btn-success.active {
 
 .img-portfolio img {
 	width: 360px;
-	height: 240px;
+	height: 240px !important;
 }
