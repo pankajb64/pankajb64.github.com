@@ -563,7 +563,7 @@ fieldset[disabled] .btn-success.active {
   }
 }
 
-.img-portfolio img {
+.img-portfolio {
 	width: 360px;
 	height: 240px !important;
 }
