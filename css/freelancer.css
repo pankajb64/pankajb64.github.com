@@ -616,3 +616,9 @@ fieldset[disabled] .btn-success.active {
     margin: 0 0 30px;
   }
 }
+
+@media (min-width: 768px) {
+	#experience .col-sm-4.portfolio-item {
+		width: 43.33333333%;
+	}
+}
