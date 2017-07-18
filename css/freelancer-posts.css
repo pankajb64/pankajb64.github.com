@@ -1,0 +1,33 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+.profile-pic-blog {
+	border-radius: 10%;
+}
+
+.img-blog {
+  max-width: 12%;
+  float: left;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+
+@media (min-width: 450px) {
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .container-fluid {
+		width: 400px;
+	}
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -10px;
+  }
+}
+
