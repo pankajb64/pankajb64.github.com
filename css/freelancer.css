@@ -622,3 +622,8 @@ fieldset[disabled] .btn-success.active {
 		width: 43.33333333%;
 	}
 }
+
+@media (min-width: 768px) {
+	#portfolio .col-sm-4.portfolio-item {
+		width: 25%;
+	}
