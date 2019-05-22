@@ -127,7 +127,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
@@ -631,3 +631,7 @@ fieldset[disabled] .btn-success.active {
 	#portfolio .col-sm-4.portfolio-item {
 		width: 25%;
 	}
+
+li.page-scroll{
+  font-size: 15px;
+}
