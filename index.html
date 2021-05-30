@@ -18,7 +18,8 @@
     <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a1a232098f.js" crossorigin="anonymous"></script>
+    <!--link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -51,13 +52,16 @@
                         <a href="#page-top"></a>
                     </li>
 					<li class="page-scroll">
-                        <a target="_blank" href="/Resume_res.pdf">Resume</a>
+                        <a target="_blank" href="/Resume_ds.pdf">Resume</a>
                     </li>
 					<li class="page-scroll">
                         <a href="#skills">Skills</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#experience">Work Ex.</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#research">Research</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Projects</a>
@@ -87,7 +91,7 @@
                     <div class="intro-text">
                         <span class="name">Pankaj Bhambhani</span>
                         <hr class="star-light">
-                        <span class="skills">Experience using statistical modeling and machine learning to solve challenging, complex problems.</span>
+                        <span class="skills">Data Scientist with experience in statistical analysis, Bayesian Inference and Remote Sensing</span>
                     </div>
                 </div>
             </div>
@@ -105,8 +109,9 @@
 			</div>
             <div class="row">
 				<ul>
-					<li><p><strong>Programming Languages:</strong> Python, Scala, Java, (Familiarity with: C++, MySQL, JavaScript, Bash, MATLAB)</p></li>
-					<li><p><strong>Development Technologies:</strong> Numpy, Scikit-Learn, Pandas, Keras, Stan, Tensorflow, Docker, Kubernetes</p></li>		
+                    <li><p><strong>Skills:</strong> Data analysis, Bayesian methods, statistical modeling, machine learning, deep learning</p></li>
+					<li><p><strong>Programming Languages:</strong> Python, Scala, Java (Familiarity with C++, Bash, SQL, JavaScript, MATLAB)</p></li>
+					<li><p><strong>Libraries/Tools:</strong> Numpy, Scikit-Learn, Pandas, Keras, Stan, Altair, Seaborn, PyTorch, FastAI, Docker, Kubernetes, AWS.</p></li>		
 				</ul>
 			</div>
 		</div>
@@ -129,10 +134,10 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cibo.png" class="img-responsive img-portfolio" alt="">
+                        <img src="img/portfolio/cibo.jpeg" class="img-responsive img-portfolio" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <!--div class="col-sm-4 portfolio-item">
                     <a href="#experienceModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -143,7 +148,7 @@
                     </a>
                 </div>
 			</div>	
-			<div class="row">
+			<div class="row"-->
                 <div class="col-sm-4 portfolio-item">
                     <a href="#experienceModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -163,7 +168,7 @@
                         </div>
                         <img src="img/portfolio/kde-logo.jpg" class="img-responsive img-portfolio" alt="">
                     </a>
-                </div>
+                </div> 
                 <!--div class="col-sm-4 portfolio-item">
                     <a href="#experienceModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -178,6 +183,49 @@
         </div>
     </section>
 	
+    <!-- Research Grid Section -->
+    <section id="research" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Research Experience</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#researchModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bnn.png" class="img-responsive img-portfolio" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#researchModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dark_ecology.png" class="img-responsive img-portfolio" alt="">
+                    </a>
+                </div>	
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#researchModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/thesis.jpeg" class="img-responsive img-portfolio" alt="">
+                    </a>
+                </div> 
+            </div>
+        </div>
+    </section>
 	
     <!-- Portfolio Grid Section -->
     <section id="portfolio" >
@@ -275,7 +323,7 @@
         </div>
     </section>
 
-	<!-- Experience Grid Section -->
+	<!-- Education Grid Section -->
     <section id="education" >
         <div class="container">
             <div class="row">
@@ -305,6 +353,16 @@
                         <img src="img/portfolio/daiict.jpg" class="img-responsive img-portfolio" alt="">
                     </a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#educationModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ljmu.gif" class="img-responsive img-portfolio" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -320,24 +378,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-2">
-                    <p> I have experience using a variety of Data Science methods such as Bayesian Inference, Machine Learning and Deep Learning models, Data Analysis and Data processing and validation.</p><br/>
-
-                    <p>My current work experience involves using Gaussian Process Regression to model crop growth for a field using Satellite imagery. I'm involved in the creation of an internal benchmark validation set to quantitatively assess the performance of this model.</p><br/>
-
-                    <p>I have a Masters in Computer Science from the University of Massachusetts Amherst.</p> <br/>
+                    <p> As a data scientist, I have 3 years of experience analysing a variety of large scale datasets to extract useful insights. My current forte is working with image data, particularly geospatial and astronomical.</p> <br/>
                     
-                    <p>My research experience includes using Convolutional Neural Networks to analyze bird migration patterns from weather radar image data.</p> <br/>
+                    <p>As part of the Remote Sensing team at CIBO Technologies (a US based startup), I lead the development of a Bayesian statistical model to predict the crop grown in an agricultural field using time series data of satellite imagery (Landsat, Sentinel 2). This work has led to a pending patent, and we are also drafting a peer reviewed publication. I also have significant experience with machine learning and deep learning models in the domain of Computer Vision, including Convolutional Neural Networks and Bayesian Neural Networks.</p><br/> 
+                    
+                    <p>I have a Masters in Computer Science, which gave me substantial knowledge of programming and machine learning. I also finishing up a Masters in Astrophysics to strengthen my analytical skills and to fulfill my desire for learning astronomy.</p> <br/>
 
-                    <p>I actively participate in Kaggle competitions, and have experience working with large scale datasets</p><br/>
-
-                    <p>I also have academic projects in NLP and Reinforcement Learning, along with experience using tools such as Numpy, Scikit-Learn, Pandas, Keras and Tensorflow.</p><br/>
-
-                    <p>I have experience delivering actionable insights, and working with production level systems, </p> <br/>
-
-					<p>I have strong analytic skills, ability to learn fast and work efficiently in a team environment.</p><br/>
+                    <p>I have experience delivering actionable insights and working with production level systems. I am a quick learner and work efficiently in a team environment.</p> <br/>
                 </div>
                 <div class="col-lg-12 col-lg-offset-2 text-center">
-                    <a target="_blank" href="/Resume_res.pdf" class="btn btn-lg btn-outline">
+                    <a target="_blank" href="/Resume_ds.pdf" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> View Resume
                     </a>
                 </div>
@@ -391,7 +441,7 @@
                                 <a href="https://github.com/pankajb64" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://medium.com/@pankajb64" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-feed"></i></a>
+                                <a href="https://medium.com/@pankajb64" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-medium"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -430,12 +480,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Play Games24x7 Pvt. Ltd.</h2>
-                            <h4>Software Development Engineer</h4>
+                            <h4>Software Development Engineer, RummyCircle</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/rummy.jpg" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Worked as SDE for RummyCircle.com, one of the major products of Games24x7. Involved in Full Stack Web Development.</p>
-                            <p><strong>Accomplishments:</strong> Horizontal scaling and optimization of distributed caches using Ehcache and Terracotta, Building Restful Services for handling Cash and Reward Point transactions, strengthening application security using Spring Security, Building Event Detection System and Optimization of gameplay bot.</p>
-							<p><strong>Technologies:</strong> Java, Spring, Spring Security, Test-NG, Jersey (JAX-RS), Hbase, Ehcache, Terracotta, Redis, Akka, MySql, MyBatis, Node.js, JUnit</p>
+                            <p><ul>
+                                <li>Helped build the backend platform which allows massive amount of users to play online card-based games such as Rummy.</li><br/>
+                                <li>Contributions include building, testing and deploying rest-based Web Services, providing application-level security to these services, maintaining bots to test gameplay.</li><br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> Java, Spring, Test-NG, Hbase, Ehcache, Redis, MySql</p>
                             <p><strong>Dates:</strong> July 2013 - May 2016</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -457,11 +509,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>KDE (Google Summer of Code)</h2>
-                            <h4>Software Developer</h4>
+                            <h4>Software Developer, Choqok</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/kde-logo.jpg" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Integrated features of Facebook into KDE's micro blogging client, Choqok (Under Google Summer of Code 2012).</p>
-                            <p><strong>Technologies:</strong> KDE4 based on Qt (C++ based GUI Framework).</p>
+                            <p><ul>
+                                <li>Integrated features of Facebook into KDE's micro blogging client, Choqok (Under Google Summer of Code 2012).</li><br/>
+                                <li>Built a base library which allows users to create, view, like and comment on posts</li><br/>
+                            </ul></p>
+                            <p><strong>Skills:</strong> KDE4 based on Qt (C++ based GUI Framework).</p>
                             <p><strong>View Project on:</strong> <a target="_blank" href="https://github.com/pankajb64/choqok-facebook">GitHub</a></p>
                             <p><strong>Dates:</strong> May-July 2011 &amp; May – August 2012</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -497,35 +552,6 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="experienceModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Machine Learning for Data Science Lab (UMASS) </h2>
-                            <h4>Software Developer</h4>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/data_science.jpg" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Currently involved with the Machine Learning for Data Science (MLDS) Lab, working on the <strong>Dark Ecology</strong> project, where we build Computer Vision based tools help biologists identify bird migration patterns from radar image data. We use <strong>WSRLIB</strong>, a MATLAB library for Weather Surveillance Radar written specifically for this task, coupled with a Convolutional Neural Network (Faster R-CNN).  Contributions include building a benchmark data set and scaling up the service to run on AWS clusters.</p>
-							<p><strong>Dark Ecology site: <a target="_blank" href="http://darkecology.cs.umass.edu">darkecology.cs.umass.edu</a></strong></p>
-                            <p><strong>WSRLIB Reference: <a target="_blank" href="https://bitbucket.org/dsheldon/wsrlib">BitBucket Repository</a></strong></p>
-							<p><strong>Technologies:</strong> MATLAB, Python</p>
-							
-                            <p><strong>Dates:</strong> May 2017 - Present</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="portfolio-modal modal fade" id="experienceModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -541,21 +567,136 @@
                             <h2>CiBO Technologies</h2>
                             <h4>Data Scientist</h4>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cibo.png" class="img-responsive img-centered img-portfolio" alt="">
+                            <img src="img/portfolio/cibo.jpeg" class="img-responsive img-centered img-portfolio" alt="">
                             <p><ul>
-                                <li>Use Gaussian Process Regression to build a statistical model for imaging the growth of a crop in a field during a given year, using sparse and noisy Satellite and Remote Sensing imagery. 
+                                <li>Lead the development of a Bayesian statistical model to automatically identify the crop grown in an agricultural field along with the planting and harvest date, using remotely sensed satellite imagery. 
                                     <ul>
-                                        <li>This model helps determine what a field looks like during a growing season, and is used to generate new CiBO products that are potentially robust to missing Remote Sensing data.</li>
-                                        <li>Use STAN, an MCMC based Bayesian inference/optimization software to automatically learn parameters that best fit the data, as well as obtained predictive distributions of the field imagery for the growing season.</li>
+                                        <li>Used Monte Carlo sampling methods to learn best-fit parameters and obtain predictive distributions.</li>
+                                        <li>Scaled the model to efficiently generate predictions for fields across the contiguous United States.</li>
+                                        <li><strong>My work here has contributed to 2 pending patents, and we are also in the process of drafting a publication to one of the remote sensing journals.</strong></li>
                                     </ul></li><br/>
-                                <li>Create an internal benchmark validation dataset for crop yields measured from combine harvests. This helps quantitatively to assess the performance of the above model as well as existing alternate models.</li>    
+                                <li>Built a model to interpolate cloudy and missing pixels in satellite images of agricultural fields.
+                                    <ul>
+                                        <li>The images generated by this Gaussian Process model give a more complete picture of crop growth in a field, and are useful to build new CIBO products that are potentially robust to missing satellite data.</li>
+                                    </ul>
+                                </li><br/>    
 
-                                <li>Process the incoming Geospatial data from various sources to generate statistical and scientific information such as Vegetative Indices (VIs), which are in turn used by the Science team to calibrate their models. Worked on a variety of Geospatial data, including Remote-Sensing Satellite and UAV imagery, USGS and NASS survey datasets for Soil and Crop management respectively. Use QGIS to visually and quantitatively evaluate data.</li><br/>
+                                <li>Contributed to building a CIBO algorithm that maps the performance variability of a field across multiple years, using satellite imagery.
+                                    <ul>
+                                        <li>Expanded the existing algorithm to work on additional crops and geographic regions within the US.</li>
+                                        <li>Designed a numerical score to summarize the maps produced by the algorithm into a single field-level metric.</li>
+                                        <li>More information about this product can be found in my blog post at <a target="_blank" href="https://www.cibotechnologies.com/blog/how-remotely-sensed-performance-zone-maps-improve-agriculture-assessments">How Remotely Sensed Performance Zone Maps Improve Agriculture Assessments</a></li>
+                                    </ul>
+                                </li><br/>
 
-                                <li>Build individual micro-services for accessing these data types, and deployed them as containerized applications using Docker and Kubernetes.</li>
+                                <li>Processed a variety of geospatial data from various sources to generate statistical and scientific information. 
+                                    <ul>
+                                        <li>The sources include satellite imagery such as Landsat and Sentinel-2, UAV imagery such as Precision Hawk, and other geospatial datasets obtained from USDA, USGS and NASS.</li>
+                                        <li>Used geospatial tools like QGIS to visually and quantitatively evaluate data.</li>
+                                        <li>I also have some basic experience working with geospatial python libraries such as shapely and geopandas.</li>
+                                    </ul>
+                                </li><br/>
                             </ul></p>
-                            <p><strong>Skills:</strong> Scala, Python, Stan, QGIS, AWS, Docker, Kubernetes</p>
+                            <p><strong>Skills:</strong> Bayesian Inference, Data Analysis, Python, Gaussian Process, Scala, Stan, QGIS, Pandas, Numpy, Altair.</p>
                             <p><strong>Dates:</strong> June 2018 - Present</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Experience Modals -->
+    <div class="portfolio-modal modal fade" id="researchModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Fermilab (Volunteer position)</h2>
+                            <h4>Independent Researcher, Deep Skies Group</h4>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/bnn.png" class="img-responsive img-centered img-portfolio" alt="">
+                            <p><ul>
+                                <li>Employed Bayesian Neural Networks (BNNs) on telescope images to learn parameters for theoretical models in astronomy. These models predict the phenomenon of strong gravitational lensing of sources by foreground galaxies.</li><br/>
+                                <li>Assessed the usefulness of BNNs by studying output distributions and the resulting uncertainties (epistemic, aleatoric).</li><br/>
+                                <li><strong>Presented my work as a poster at the 236th meeting of American Astronomical Society</strong>, see reference below.</li><br/>
+                            </ul></p>
+                            <p><strong>Poster Reference: Bhambhani, P.</strong>, Hurd, H. and Caldeira, J., 2020, June. BayesCurve: Read your Strong Gravitational Lens with Bayesian Neural Networks. In American Astronomical Society Meeting Abstracts# 236 (Vol. 236, pp. 241-04)</p>
+                            <p><strong>Link to Poster: </strong><a target="_blank" href="http://bit.ly/poster_aas">BayesCurve AAS 236 Poster</a> </p>
+							<p><strong>Skills:</strong> Bayesian Neural Networks, Variational Inference, PyTorch, FastAI, Python</p>
+                            <p><strong>Dates:</strong> April 2019 - December 2020</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="researchModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Dark Ecology Project(UMASS Amherst MS Computer Science Research Project) </h2>
+                            <h4>Research Assistant</h4>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/dark_ecology.png" class="img-responsive img-centered img-portfolio" alt="">
+                            <p><ul>
+                                <li>Helped build machine learning models for biologists to analyze bird migration patterns, using weather radar imagery.</li><br/>
+                                <li>Contributions include building a benchmark data set and scaling models to run on large volumes of data on AWS.</li><br/>
+                                <li><strong>Our work was published at the AAAI 2020 conference. (see reference below)</strong></li><br/>
+                            </ul></p>
+                            <p><strong>Paper Reference: </strong> Cheng, Z., Gabriel, S., <strong>Bhambhani, P.</strong>, Sheldon, D., Maji, S., Laughlin, A., & Winkler, D. Detecting and Tracking Communal Bird Roosts in Weather Radar Data. AAAI 2020: 378-385 arXiv:2004.12819</p>
+                            <p><strong>Link to Paper: </strong><a target="_blank" href="https://ojs.aaai.org//index.php/AAAI/article/view/5373">Dark Ecology AAAI 2020</a> </p>
+							<p><strong>Dark Ecology site: <a target="_blank" href="https://web.archive.org/web/20190903185044/http://darkecology.cs.umass.edu/">darkecology.cs.umass.edu</a></strong> (WebArchive link as website was down at time of this writing.)</p>
+							<p><strong>Skills:</strong> Data Analysis, MATLAB, Python, Docker, AWS                            </p>
+							
+                            <p><strong>Dates:</strong> May 2017 - May 2018</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="researchModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Environmental effects on Galaxy Population</h2>
+                            <h4>Astrophysics Msc Thesis, LJMU Astrophysics Research Institute (ARI)</h4>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/thesis2.png" class="img-responsive img-centered img-portfolio" alt="">
+                            <p><ul>
+                                <li>For my thesis project, I am studying the correlation between the number density of galaxies in a cluster and the fraction
+                                of galaxies that are red (i.e don’t form new stars), using data from a large-scale astronomical galaxy survey.</li><br/>
+                                <li>This is a big data project, and involves statistical analysis, model fitting and Monte-Carlo based parameter estimation.</li><br/>
+                            </ul></p>
+                            <p><strong>Skills:</strong> Data Analysis, Python, Pandas, Numpy, Stan, Altair</p>
+                            <p><strong>Dates:</strong> June 2020 - Present</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -581,8 +722,11 @@
                             <h4>Machine Learning Course Project</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/dl.jpg" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Incorporated an attention mechanism with gradient descent based training algorithms to build a deep learning model that learns to generate image descriptions given an unseen image, inspired by the state-of-the-art work in this field. Our results showed that attention based deep learning models can learn to produce good image captions and generate visualizations to infer how a model can focus on certain parts of the image while predicting the next word. We used a Convolutional Neural Network (CNN) to generate attention based features and a Long Short-term Memory Network (LSTM) for generating image captions.</p>
-							<p><strong>Technologies:</strong> Keras, Theano, Python </p>
+                            <p><ul><li>Incorporated an attention mechanism with gradient descent based training algorithms to build a deep learning model that learns to generate image descriptions given an unseen image, inspired by the state-of-the-art work in this field.</li><br/> 
+                                <li>Our results showed that attention based deep learning models can learn to produce good image captions and generate visualizations to infer how a model can focus on certain parts of the image while predicting the next word.</li> <br/>
+                                <li>We used a Convolutional Neural Network (CNN) to generate attention based features and a Long Short-term Memory Network (LSTM) for generating image captions.</li><br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> Keras, Theano, Python </p>
 							<p><strong>View Project on: <a target="_blank" href="https://github.com/pankajb64/image_caption_using_attention">GitHub</a></strong></p>
 							<p><strong>Dates:</strong> October - December 2016 </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -608,8 +752,12 @@
                             <h4>Natural Language Processing Course Project</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/nlp.jpg" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Generating coherent summaries of long documents such as books is a relatively untouched field, with most of the research work being focused on short documents. In this Project, we looked at summarization of books which have a back-index as a novel technique for generating good summaries. We provided a new dataset for the evaluation of such summarization systems. We focused on extractive summarization using LexRank, an unsupervised learning algorithm based on eigenvector sentence centrality and compared it with the current state-of-the-art methods. The results were promising and merit future research.</p>
-							<p><strong>Technologies:</strong> NLTK, Python </p>
+                            <p><ul>
+                                <li>Generating coherent summaries of long documents such as books is a relatively untouched field, with most of the research work being focused on short documents.</li><br/> 
+                                <li>In this Project, we looked at summarization of books which have a back-index as a novel technique for generating good summaries. We provided a new dataset for the evaluation of such summarization systems. We focused on extractive summarization using LexRank, an unsupervised learning algorithm based on eigenvector sentence centrality and compared it with the current state-of-the-art methods.</li><br/> 
+                                <li>The results were promising and merit future research.</li><br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> NLTK, Python </p>
 							<p><strong>View Project on: <a target="_blank" href="https://github.com/pankajb64/bookesis">GitHub</a></strong></p>
 							<p><strong>Dates:</strong> October - December 2016 </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -635,8 +783,12 @@
                             <h4>HackUMass 2016</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/jibo.jpg" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Taught the robot Jibo to play Pictionary on a set of hand-drawn images. We used Jibo SDK to capture a picture and send it off to be classified by our custom-trained TensorFlow neural networks. We used openCV to detect the playing area within the board and crop off the rest of the image and make it black and white, we then passed it off to our TensorFlow model to be classified. We built the neural network using hundreds of images pulled automatically from Bing Image Search. Using TenserFlow's Image Recognition Algorithm "Inception", we successfully trained it to recognize common objects such as house, chair, etc.</p>
-							<p><strong>Technologies:</strong> Jibo SDK, Tensorflow, OpenCV, Python </p>
+                            <p><ul>
+                                <li>Taught the robot Jibo to play Pictionary on a set of hand-drawn images.</li><br/>
+                                 <li>We used Jibo SDK to capture a picture and send it off to be classified by our custom-trained TensorFlow neural networks. We used openCV to detect the playing area within the board and crop off the rest of the image and make it black and white, we then passed it off to our TensorFlow model to be classified.</li><br/> 
+                                 <li>We built the neural network using hundreds of images pulled automatically from Bing Image Search. Using TenserFlow's Image Recognition Algorithm "Inception", we successfully trained it to recognize common objects such as house, chair, etc.</li><br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> Jibo SDK, Tensorflow, OpenCV, Python </p>
 							<p><strong>View Project on: <a target="_blank" href="https://github.com/pankajb64/jibo-pictionary">GitHub</a>, <a target="_blank" href="https://devpost.com/software/pictionary-with-jibo">DevPost</a></strong></p>
 							<p><strong>Dates:</strong> October 2016 </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -662,8 +814,11 @@
                             <h4>Personal Project</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/dl_android.png" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Designed and Built Duckworth Lewis Calculator - an Android application which lets users predict scores and results in rain interrupted cricket matches. Based on the Standard Edition released by the Internation Cricket Council (ICC). Works for domestic as well as international cricket matches.</p>
-							<p><strong>Technologies:</strong> Android </p>
+                            <p><ul>
+                                <li>Designed and Built Duckworth Lewis Calculator - an Android application which lets users predict scores and results in rain interrupted cricket matches.</li><br/>
+                                <li>Based on the Standard Edition released by the Internation Cricket Council (ICC). Works for domestic as well as international cricket matches.</li> <br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> Android </p>
 							<p><strong>View App on: <a target="_blank" href="https://play.google.com/store/apps/details?id=com.fl.dlc">Play Store</a>, <a target="_blank" href="https://github.com/pankajb64/duckworth-lewis-d-l-calculator-android">GitHub</a></strong></p>
 							<p><strong>Dates:</strong> April - May 2015 </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -689,8 +844,12 @@
                             <h4>Independent Study with the Secure, Private Internet Research Group (SPIN)</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/wf.png" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Pursued an independent study to evaluate the assumptions made by different machine learning models for targeting Website Fingerprinting (WF) attacks on the Tor network. Existing models include Naïve Bayes, Decision Trees and SVM, but they all employ certain restrictions (e.g., user visits only a small set of web pages, a single tab whose content is unchanging) that aren’t realistically attainable. Evaluated the assumptions made by such models and the performance when these assumptions are violated. <strong>Proposed two neural network models</strong> (a single-layer network as well as a 1D CNN) as a tool to effectively classify multi-tab, open-world, time-variant crawl data, and evaluate their performance against the state-of-the-art SVMs. Results are promising and merit further research.</p>
-							<p><strong>Technologies:</strong> Keras, Numpy, Scikit-learn, Python, C++, Bash. </p>
+                            <p><ul>
+                                <li>Pursued an independent study to evaluate the assumptions made by different machine learning models for targeting Website Fingerprinting (WF) attacks on the Tor network.</li><br/>
+                                <li>Existing models include Naïve Bayes, Decision Trees and SVM, but they all employ certain restrictions (e.g., user visits only a small set of web pages, a single tab whose content is unchanging) that aren’t realistically attainable. Evaluated the assumptions made by such models and the performance when these assumptions are violated.</li> <br/>
+                                <li>Proposed two neural network models (a single-layer network as well as a 1D CNN) as a tool to effectively classify multi-tab, open-world, time-variant crawl data, and evaluate their performance against the state-of-the-art SVMs. Results are promising and merit further research.</li> <br/> 
+                            </ul></p>
+							<p><strong>Skills:</strong> Keras, Numpy, Scikit-learn, Python, C++, Bash. </p>
 							<p><strong>View Project on: <a target="_blank" href="https://github.com/pankajb64/wf_attacks_evaluation">GitHub</a></strong></p>
 							<p><strong>Dates:</strong> May - August 2017 </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -716,8 +875,11 @@
                             <h4>Google Hacking For Good 2017</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/itb.png" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>In the bin is a location-based, crowd-sourced web application where users can submit locations of publicly-accessible trash and recycle bins near by. Built during the Google Hacking For Good 2017 hackathon at Harvard Innovation Labs.</p>
-							<p><strong>Technologies:</strong> Firebase Web, Google Maps Javascript API, Material Design Lite </p>
+                            <p><ul>
+                                <li>In The Bin is a location-based, crowd-sourced web application where users can submit locations of publicly-accessible trash and recycle bins near by.</li><br/> 
+                                <li>Built during the Google Hacking For Good 2017 hackathon at Harvard Innovation Labs.</li><br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> Firebase Web, Google Maps Javascript API, Material Design Lite </p>
 							<p><strong>View Project on: <a target="_blank" href="https://github.com/HackingForGood/HackU">GitHub</a></strong></p>
 							<p><strong>View Demo at: <a target="_blank" href="https://hackingforgood-bba02.firebaseapp.com/">Firebase</a></strong></p>
 							<p><strong>Date:</strong> June 17 2017</p>
@@ -744,12 +906,12 @@
                             <h4>Kaggle Data Science Challenge</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/lsst.png" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Used <strong>Convolutional Neural Networks (CNN)</strong> to build classifier that detects a variety of astronomical objects from simulated light curves data provided by the Large Synoptic Survey Telescope (LSST) team.</p><br/>
-                            <p>Documented my work and published a Kernel explaining my approach - see <a target="_blank" href="https://www.kaggle.com/pankajb64/cnn-based-classification-of-light-curves">this Kernel</a></p><br/>
-                            <p>Generated Auxilary Dataset of intermediate results, performed <strong>Exploratory Data Analysis (EDA)</strong> - <a target="_blank" href="https://www.kaggle.com/pankajb64/plasticc-dmdt-eda">see this Kernel</a></p><br/>
-							<p><strong>Technologies:</strong> Keras, Numpy, Scikit-Learn, Pandas,  Python </p>
-							<!--p><strong>View Project on: <a target="_blank" href="https://github.com/HackingForGood/HackU">GitHub</a></strong></p>
-							<p><strong>View Demo at: <a target="_blank" href="https://hackingforgood-bba02.firebaseapp.com/">Firebase</a></strong></p-->
+                            <p><ul>
+                                <li>Used Convolutional Neural Networks (CNN) to build a classifier that detects a variety of astronomical objects from simulated light curves data provided by the team at Vera C. Rubin Observatory (aka Large Synoptic Survey Telescope).</li><br/>
+                                <li>Documented my work and published a Kernel explaining my approach - see <a target="_blank" href="https://www.kaggle.com/pankajb64/cnn-based-classification-of-light-curves">this Kernel</a></li><br/>
+                                <li><strong>I have been invited to present my work at the upcoming LSST Supernova workshop</strong> (postponed due to Covid).</li><br/>
+                            </ul></p>
+							<p><strong>Skills:</strong> Keras, Sklearn, Pandas, Numpy, Python, Bash </p>
 							<p><strong>Dates:</strong> April 2017</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -775,10 +937,11 @@
                             <h4>Kaggle Data Science Challenge</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/lanl.png" class="img-responsive img-centered img-portfolio" alt="">
-                            <p>Predict the time remaining to earthquake using acoustic <strong>time-series signals</strong> simulating seismic waves generated by Los Alamos National Loboratory </p><br/>
-                            <p>Best results obtained using <strong>tree-based ensemble models</strong> trained on a variety on statistical and signal processing features.</p><br/> 
-                            <p>Also tried <strong>Recurrent Neural Networks (RNNs)</strong> with decent results.</p><br/>
-                            <p><strong>Technologies:</strong> Python, Pandas, Numpy, Scipy, Keras </p>
+                            <p><ul>
+                                <li>Predict the time remaining to earthquake using acoustic time-series signals simulating seismic waves as generated by the Los Alamos National Loboratory </li><br/>
+                                <li>Best results obtained using tree-based ensemble models trained on a variety on statistical and signal processing features.</li><br/>
+                            </ul></p>
+                            <p><strong>Skills:</strong> Python, Pandas, Numpy, Scipy, Keras </p>
                             <p><strong>Dates:</strong> Feb 2019 - Present</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -839,6 +1002,33 @@
             </div>
         </div>
     </div>
+    <div class="portfolio-modal modal fade" id="educationModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Liverpool John Moores University</h2>
+                            <h4>MSs - Astrophysics (Distance Learning)</h4>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/ljmu.gif" class="img-responsive img-centered img-portfolio" alt="">
+                            <p>Coursework – Introduction to Astrophysics, Observational Astrophysics, Time Domain Astrophysics, Cosmology</p>
+                            <p>Research Thesis – Environmental Effects on Galaxy Population (see Research Experience section)</p>
+                            <p><strong>Dates:</strong> September 2019 – PRESENT</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
